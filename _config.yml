@@ -6,14 +6,14 @@
 title: Rolenx
 subtitle: '你相信光吗～～'
 description: '神针湾壹号'
-keywords:
+keywords: 'Rolenx, 神针湾壹号, Rolenx的博客, Rolenx的个人博客, Rolenx的技术博客, Rolenx的生活博客, Rolenx的学习博客, Rolenx的分享博客, Rolenx的博客, Rolenx的个人博客, Rolenx的技术博客, Rolenx的生活博客, Rolenx的学习博客, Rolenx的分享博客'
 author: Rolenx
 language: en
 timezone: ''
-
+email: xuruolun666@gmail.com
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://Rolenx.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -92,6 +92,13 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
+
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
