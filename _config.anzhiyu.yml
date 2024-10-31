@@ -140,7 +140,7 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: /img/favicon.ico
 
 # Avatar (头像)
 avatar:
@@ -1107,8 +1107,8 @@ console:
 # 51a统计配置
 LA:
   enable: false
-  ck:
-  LingQueMonitorID:
+  ck: 3K8TNtkRfbY6ZTCK
+  LingQueMonitorID: 3K8TtT6QadZePyhp
 
 # 标签卖萌
 diytitle:

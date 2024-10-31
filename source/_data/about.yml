@@ -5,12 +5,12 @@
     left:
       - 🤖️ 数码科技爱好者
       - 🔍 分享与热心帮助
-      - 🏠 智能家居小能手
-      - 🔨 设计开发一条龙
+      - 💡 逻辑思维严谨派 
+      - 🎮 游戏评鉴狂热者
     right:
-      - 专修交互与设计 🤝
+      - 行动果断不拖延 ⏳
       - 脚踏实地行动派 🏃
-      - 团队小组发动机 🧱
+      - 沉稳内敛不张扬 🤫
       - 壮汉人狠话不多 💢
   name: 许若伦
   description: 是一名 数码爱好者、学生、独立开发者、博主
@@ -101,7 +101,7 @@
     music_tips: 音乐偏好
     music_title: acane的刺猬
     music_bg: /img/about_img/zutomayo.jpg
-    music_link: /music
+    music_link: /music/?id=12259934595&server=netease
   reward_list:
     # - name: 海阔蓝
     #   amount: 8.8
