@@ -21,9 +21,9 @@
     word:
       - 学习
       - 生活
-      - 程序
+      - 信仰
       - 体验
-  helloAbout: Hello there!
+  helloAbout: Live it Up!
   skillsTips:
     tips: 技能
     title: 开启创造力
@@ -77,21 +77,24 @@
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
-      - name: 约定的梦幻岛
-        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
-      - name: 咒术回战
-        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
+      - name: 新世纪福音战士
+        href: https://www.bilibili.com/bangumi/media/md1635
+        cover: https://s2.loli.net/2024/11/06/Rfupln8zeZd1UwV.webp
+      - name: 命运石之门
+        href: https://www.anfuns.cc/anime/86.html
+        cover: https://s2.loli.net/2024/11/06/RaVdmkqrsnJjE84.jpg
       - name: 紫罗兰永恒花园
         href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
         cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
-      - name: 鬼灭之刃
-        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
-      - name: JOJO的奇妙冒险 黄金之风
+      - name: 吊带袜天使
+        href: https://www.anfuns.cc/anime/719.html
+        cover: https://s2.loli.net/2024/11/06/4JxTSAVeBv1r3mO.jpg
+      - name: 恶魔人Crybaby
+        href: https://www.anfuns.cc/anime/988.html
+        cover: https://s2.loli.net/2024/11/06/PlBDXEotpbI2vWN.jpg
+      - name: 炎拳
         href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
+        cover: https://s2.loli.net/2024/11/06/eE1t26IkqLyxOia.jpg
   like:
     like_tips: 关注偏好
     like_title: 数码科技

@@ -151,10 +151,27 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
+index_img: "background: url(https://img.picui.cn/free/2024/11/06/672b8534465a4.jpg) top / cover no-repeat" #false # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: false
+default_top_img: 
+    - /img/cover/omao0.jpg
+    - /img/cover/omao1.jpeg
+    - /img/cover/omao2.jpeg
+    - /img/cover/omao3.jpeg
+    - /img/cover/omao4.jpeg
+    - /img/cover/omao5.jpeg
+    - /img/cover/omao6.jpeg
+    - /img/cover/omao7.jpeg
+    - /img/cover/omao8.jpeg
+    - /img/cover/omao9.jpeg
+    - /img/cover/omao10.jpeg
+    - /img/cover/omao11.jpeg
+    - /img/cover/omao12.jpeg
+    - /img/cover/omao13.jpeg
+    - /img/cover/omao14.jpeg
+    - /img/cover/omao15.jpeg
+    - /img/cover/omao16.jpeg
 
 cover:
   # display the cover or not (是否显示文章封面)
@@ -166,7 +183,24 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - /img/default_cover.jpg
+    - /img/cover/omao0.jpg
+    - /img/cover/omao1.jpeg
+    - /img/cover/omao2.jpeg
+    - /img/cover/omao3.jpeg
+    - /img/cover/omao4.jpeg
+    - /img/cover/omao5.jpeg
+    - /img/cover/omao6.jpeg
+    - /img/cover/omao7.jpeg
+    - /img/cover/omao8.jpeg
+    - /img/cover/omao9.jpeg
+    - /img/cover/omao10.jpeg
+    - /img/cover/omao11.jpeg
+    - /img/cover/omao12.jpeg
+    - /img/cover/omao13.jpeg
+    - /img/cover/omao14.jpeg
+    - /img/cover/omao15.jpeg
+    - /img/cover/omao16.jpeg
+
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -397,7 +431,7 @@ giscus:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: false
@@ -405,8 +439,8 @@ chat_hide_show: false
 # chatra
 # https://chatra.io/
 chatra:
-  enable: false
-  id:
+  enable: true
+  id: D74vknRaLz5uv6ehp
 
 # tidio
 # https://www.tidio.com/
@@ -435,7 +469,7 @@ footer:
   custom_text:
   runtime:
     enable: false
-    launch_time: 04/01/2024 00:00:00 # 网站上线时间
+    launch_time: 04/01/2024  00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -817,7 +851,7 @@ aside:
 
   card_announcement:
     enable: true
-    content: 欢迎来到我的赛博电子家鸭~
+    content: 欢迎来到我的个人网站鸭~
   card_weixin:
     enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
@@ -1068,8 +1102,8 @@ home_top:
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活日常/
+    - name: 技术博客
+      path: https://blog.yesord.top
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
