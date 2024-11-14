@@ -23,10 +23,10 @@ menu:
 # nav相关配置
 nav:
   enable: true
-  travelling: false
+  travelling: true
   clock: true
   menu:
-    - title: 网页
+    - title: 我的网页
       item:
         - name: 博客
           link: https://blog.yesord.top/
@@ -34,16 +34,17 @@ nav:
         - name: 学术
           link: https://academic.yesord.top/
           icon: /img/favicon.ico
-    # - title: 项目
-    #   item:
-    #     - name: 安知鱼图床
-    #       link: https://image.anheyu.com/
-    #       icon: https://image.anheyu.com/favicon.ico
+    - title: 有趣的网站
+      item:
+        - name: civitai
+          link: https://civitai.com/tag/cat
+          icon: https://image.anheyu.com/favicon.ico
+
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
-  enable: false
+  enable: true
   days: [4-5, 5-12, 7-7, 9-18, 12-13]
 
 # Code Blocks (代码相关)
@@ -465,8 +466,8 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
-  custom_text:
+    since: 2024
+  custom_text: 是无名小卒还是名扬天下
   runtime:
     enable: false
     launch_time: 04/01/2024  00:00:00 # 网站上线时间
@@ -573,7 +574,7 @@ footer:
       # - link: https://beian.miit.gov.cn/
       #   text: 湘ICP备-xxxxxxx号
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
@@ -684,7 +685,7 @@ sidebar:
 h2Divider: false
 
 # 表格隔行变色
-table_interlaced_discoloration: false
+table_interlaced_discoloration: true
 
 # 首页双栏显示
 article_double_row: true
@@ -692,7 +693,7 @@ article_double_row: true
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默认top_img全屏，site_info在中间)
 # The position of site info, eg: 300px/300em/300rem/10% (主页标题距离顶部距离)
-index_site_info_top:
+index_site_info_top: 
 # The height of top_img, eg: 300px/300em/300rem (主页top_img高度)
 index_top_img_height:
 
@@ -718,12 +719,12 @@ canvas_ribbon:
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (动态彩带)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -799,25 +800,26 @@ hr_icon:
 
 # the subtitle on homepage (主页subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
-  effect: true
+  effect: true  
   # Effect Speed Options (打字效果速度参数)
   startDelay: 300 # time before typing starts in milliseconds
   typeSpeed: 150 # type speed in milliseconds
   backSpeed: 50 # backspacing speed in milliseconds
   # loop (循环打字)
-  loop: true
+  loop: false
   # source 调用第三方服务
   # source: false 关闭调用
   # source: 1  调用一言网的一句话（简体） https://hitokoto.cn/
   # source: 2  调用一句网（简体） http://yijuzhan.com/
   # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
   # subtitle 会先显示 source , 再显示 sub 的内容
-  source: 1
+  source: false
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
     # - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
+    - 你相信光吗&#44
 
 # Loading Animation (加载动画)
 preloader:
@@ -898,7 +900,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 4/10/2024 00:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1088,9 +1090,9 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
+  title: 不远遐路
+  subTitle: 幸见光临
+  siteText: Weclome
   category:
     - name: 音乐馆
       path: /music/?id=12259934595&server=netease
@@ -1140,7 +1142,7 @@ console:
 
 # 51a统计配置
 LA:
-  enable: false
+  enable: true
   ck: 3K8TNtkRfbY6ZTCK
   LingQueMonitorID: 3K8TtT6QadZePyhp
 
