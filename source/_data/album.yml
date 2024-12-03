@@ -1,0 +1,286 @@
+- class_name: 二次元插画
+  path_name: /anime
+  type: 2
+  description: EL PSY CONGROO
+  cover: https://s2.loli.net/2024/12/02/sgHESDyrUc1Ael7.jpg
+  top_background: https://s2.loli.net/2024/12/02/LnogKwyB2vxbUPN.jpg
+  rowHeight: 300
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2022/10/26 01:00:00
+      #content: 湘潭的一角。
+      #address: 湖南湘潭
+      from: 荻pote
+      image:
+        - https://s2.loli.net/2024/12/02/IPEMyVSj9i7NOY3.jpg
+        - https://s2.loli.net/2024/12/02/72huNL4tXjaHTOU.jpg
+        - https://s2.loli.net/2024/12/02/P1uAfGXWcinspYk.jpg
+        - https://s2.loli.net/2024/12/02/hcwRE4bB9DTIHzA.jpg
+    - date: 2022-10-25
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: 千夜QYS3
+      image:
+        - https://s2.loli.net/2024/12/02/VGevZ7mhFxaD9fH.jpg
+        - https://s2.loli.net/2024/12/02/N4wTgeKvR6xombE.jpg
+        - https://s2.loli.net/2024/12/02/1PEIwNUJoTR3Abe.jpg
+        - https://s2.loli.net/2024/12/02/9xnBSQEosdDZhkv.jpg
+        - https://s2.loli.net/2024/12/02/fnTuYhNR3Jmkg4r.jpg
+        - https://s2.loli.net/2024/12/02/ETUcLxvOQoZhzPb.jpg
+        - https://s2.loli.net/2024/12/02/jkzy1eXVJPGslNv.jpg
+        - https://s2.loli.net/2024/12/02/vW3txhd4a7uzjsL.jpg
+        - https://s2.loli.net/2024/12/02/Gj47wQHkUWeamzN.jpg
+
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: TOKKYU
+      image:
+        - https://s2.loli.net/2024/12/02/VmTNcdxvEOiozb5.jpg
+        - https://s2.loli.net/2024/12/02/Ld7AWB1m42anQzR.jpg
+        - https://s2.loli.net/2024/12/02/KQSJVA7UamW2Mzw.jpg
+        - https://s2.loli.net/2024/12/02/OiswR21LDSNugU6.jpg
+        - https://s2.loli.net/2024/12/02/iSAe5bFzGyB6IsZ.jpg
+    
+
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: Li Flag
+      image:
+        - https://s2.loli.net/2024/12/02/GSCfqbxFuBkH5mN.jpg
+        - https://s2.loli.net/2024/12/02/uS7OJfcxKLCpD1W.jpg
+        - https://s2.loli.net/2024/12/02/4CTXgD9y3avUk6P.jpg
+        - https://s2.loli.net/2024/12/02/VCURc8WGZw6IsvM.jpg
+        - https://s2.loli.net/2024/12/02/3YH794vuqayp5RN.jpg
+
+    - date: 2022-10-24
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: ふわり
+      image:
+        - https://s2.loli.net/2024/12/02/tyvHLADmnCa1eIl.jpg
+        - https://s2.loli.net/2024/12/02/4QGxlhbTYJKLC58.jpg
+        - https://s2.loli.net/2024/12/02/Q2GupJKeM3SsUcC.jpg
+        - https://s2.loli.net/2024/12/02/zjGqy2dnYxXsvOD.jpg
+        - https://s2.loli.net/2024/12/02/B1A9NYKZt2eCp8O.jpg
+        - https://s2.loli.net/2024/12/02/INhRYF1UDpu5zfr.jpg
+        - https://s2.loli.net/2024/12/02/NaZ6VTbvk18WGKI.jpg
+        - https://s2.loli.net/2024/12/02/5OCQu9qTRhSVw2m.jpg
+        - https://s2.loli.net/2024/12/02/TsBpkenaqQO8WiU.jpg
+
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: Nardack
+      image:
+        - https://s2.loli.net/2024/12/02/PXwyQIU4ZpzhH6A.jpg
+        - https://s2.loli.net/2024/12/02/SxRYd5IUWA8y13j.jpg
+        - https://s2.loli.net/2024/12/02/LY6rm9gXwKOM4yC.jpg
+        - https://s2.loli.net/2024/12/02/alYXsEjhvKM8F2Q.jpg
+        - https://s2.loli.net/2024/12/02/tzhJIFDbGn8pMR9.jpg
+
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: necömi
+      image: 
+        - https://s2.loli.net/2024/12/02/f8BLWRykpZKjrq6.jpg
+        - https://s2.loli.net/2024/12/02/KLPTdNYO7ikAS13.jpg
+        - https://s2.loli.net/2024/12/02/KECGBIpd2Y357b8.jpg
+        - https://s2.loli.net/2024/12/02/2ikzZJTIlg78rdO.jpg
+        - https://s2.loli.net/2024/12/02/fL47GlqM8UOx6jD.jpg
+        - https://s2.loli.net/2024/12/02/gfOpEZHyieIukRY.jpg
+        - https://s2.loli.net/2024/12/02/nTOotYawceAi4QS.jpg
+    
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: whoisshe
+      image:
+      - https://s2.loli.net/2024/12/02/p9LgjnvuSTR7FVU.jpg
+      - https://s2.loli.net/2024/12/02/wFKsGXY1JECy89W.jpg
+      - https://s2.loli.net/2024/12/02/ED3O7xTzHypRiAW.jpg
+
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: YD
+      image:
+        - https://s2.loli.net/2024/12/02/vJWBYly4sFOIULE.jpg
+        - https://s2.loli.net/2024/12/02/MOb47KUyILH3q25.jpg
+        - https://s2.loli.net/2024/12/02/7865pUqVjTHbv2i.jpg
+        - https://s2.loli.net/2024/12/02/sXq7UrGLeaTcgmW.jpg
+
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: 米山舞
+      image:
+        - https://s2.loli.net/2024/12/02/T1rMxHJ68snYBaw.jpg
+        - https://s2.loli.net/2024/12/02/cyPE6SshbFQziHL.jpg
+        - https://s2.loli.net/2024/12/02/C2F3Nz4WMUOSc6Z.jpg
+        - https://s2.loli.net/2024/12/02/MSrpF3BhnIAXemg.jpg
+        - https://s2.loli.net/2024/12/02/gsA5tp9GfdqnjCb.jpg
+        - https://s2.loli.net/2024/12/02/zCR43YcUtTenElH.jpg
+        - https://s2.loli.net/2024/12/02/clzx2pRPIOWbEGD.jpg
+        - https://s2.loli.net/2024/12/02/81gHJlTdx4V2Msp.jpg
+        - https://s2.loli.net/2024/12/02/c9qPxTsJMSVdwoz.jpg
+        - https://s2.loli.net/2024/12/02/2Wg71LTQpxYdeNc.jpg
+        - https://s2.loli.net/2024/12/02/Bp9V18Ly54SxKNb.jpg
+        - https://s2.loli.net/2024/12/02/7FpUXB8SqjgcAia.jpg
+        - https://s2.loli.net/2024/12/02/DleCh8Mv1mPo7wf.jpg
+        - https://s2.loli.net/2024/12/02/GsxNSo4tnBQP1Fz.jpg
+        - https://s2.loli.net/2024/12/02/vFB2puaQxihWANb.jpg
+        - https://s2.loli.net/2024/12/02/gmWcbX3qtpREoIL.jpg
+        - https://s2.loli.net/2024/12/02/I3LnVETDQWAN2HC.jpg
+        - https://s2.loli.net/2024/12/02/qmw5ZTybucIUMxp.jpg
+        - https://s2.loli.net/2024/12/02/VPyJgiodrjcKYET.jpg
+        - https://s2.loli.net/2024/12/02/ubrFwG2xqM1UeO9.jpg
+        - https://s2.loli.net/2024/12/02/Krbefm1wuElYoVx.jpg
+        - https://s2.loli.net/2024/12/02/nJ3Im7Pd6KM2v9z.jpg
+        - https://s2.loli.net/2024/12/02/CeUr9zViNwYB1xM.jpg
+        - https://s2.loli.net/2024/12/02/Y7MacWpdDjsHEnx.jpg
+        - https://s2.loli.net/2024/12/02/BZsKyYQbFdU29Rm.jpg
+        - https://s2.loli.net/2024/12/02/tr1DC3xwmJc5YHq.jpg
+        - https://s2.loli.net/2024/12/02/jXIoG6gd1YCZqQz.jpg
+        - https://s2.loli.net/2024/12/02/VqrkJsGScRbypHm.jpg
+        - https://s2.loli.net/2024/12/02/WHL9tVw1SQB2hRY.jpg
+        - https://s2.loli.net/2024/12/02/G2NqUJwjvREeSKb.jpg
+        - https://s2.loli.net/2024/12/02/35FXsVQ1w7foIgZ.jpg
+        - https://s2.loli.net/2024/12/02/xFGIfM2kEXUb7Kh.jpg
+        - https://s2.loli.net/2024/12/02/M2YmFfCoOGdVZbR.jpg
+
+    - date: 2022-10-27
+      #content: 洛阳暴雨后的天空。
+      #address: 河南洛阳
+      from: DSマイル
+      image:
+        - https://s2.loli.net/2024/12/02/vyVxAKteu69ilUN.jpg
+        - https://s2.loli.net/2024/12/02/KBJwYx9Os8oVhNu.jpg
+        - https://s2.loli.net/2024/12/02/YKonWeugDaPMXdS.jpg
+        - https://s2.loli.net/2024/12/02/Gom7driQ8AEvbSL.jpg
+        - https://s2.loli.net/2024/12/02/nlW1HwEct7C9QrS.jpg
+        - https://s2.loli.net/2024/12/02/xPq1tTHlIjXOsvZ.jpg
+        - https://s2.loli.net/2024/12/02/l95oCTca2PKfLyw.jpg
+        - https://s2.loli.net/2024/12/02/1Mf4Xea3yLOJCg7.jpg
+        - https://s2.loli.net/2024/12/02/RUTBbzH2uLsvf6g.jpg
+
+    # - date: 2022-10-27
+    #   #content: 洛阳暴雨后的天空。
+    #   #address: 河南洛阳
+    #   from: TOKKYU
+    #   image:
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 世上只有一种英雄主义
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://s2.loli.net/2024/12/03/OnyW8RehtD4Yvqi.jpg
+  cover: https://s2.loli.net/2024/12/03/MGLmdW7Cx1aNwp4.jpg
+  album_list:
+    - date: 2024-10-01
+      content: 24年深圳国展车展
+      address: 广东深圳
+      image:
+        - https://s2.loli.net/2024/12/03/8eqo9cSpAb3QHk7.jpg
+        - https://s2.loli.net/2024/12/03/g7mAWnCKVfJcs6q.jpg
+        - https://s2.loli.net/2024/12/03/ZDpRzr43Mi2YfvV.jpg
+        - https://s2.loli.net/2024/12/03/Pmr7ek3ahDvJXOn.jpg
+
+    - date: 2024-10-01
+      content: 24年深圳动玩嘉年华
+      address: 广东深圳
+      image:
+        - https://s2.loli.net/2024/12/03/OC8DSHXFTWfmIuz.jpg
+        - https://s2.loli.net/2024/12/03/SslihzcdQxAFGNV.jpg
+    
+    - date: 2024-10-18
+      content: 深圳博物馆大熊猫展
+      address: 广东深圳
+      image:
+        - https://s2.loli.net/2024/12/03/ChkMzGep78lbDiu.jpg
+        - https://s2.loli.net/2024/12/03/2Kyxo8qsZUWTHm5.jpg
+        - https://s2.loli.net/2024/12/03/KhybW9JtZVkeAfB.jpg
+    
+    - date: 2024-04-29
+      content: don't be so serious
+      address: 广东深圳
+      image:
+        - https://s2.loli.net/2024/12/03/V8f5Glz6yDYvnNJ.jpg
+
+    - date: 2024-02-10
+      content: 老家舞狮
+      address: 福建漳州
+      image:
+        - https://s2.loli.net/2024/12/03/kamg3rx5hWXzfQw.jpg
+        - https://s2.loli.net/2024/12/03/3ksKjhSe5V9Cifq.jpg
+
+    - date: 2022-09-26
+      content: RG六号机
+      address: 广东深圳
+      image:
+        - https://s2.loli.net/2024/12/03/6KO24MiJ8EV13du.jpg
+        - https://s2.loli.net/2024/12/03/D7y3XTUWnwOLVQt.jpg
+        - https://s2.loli.net/2024/12/03/9JIkWcfwXErV75x.jpg
+        
+    - date: 2022-08-02
+      content: RG初号机
+      address: 广东深圳
+      image:
+        - https://s2.loli.net/2024/12/03/qhS5nJWMvum1eRg.jpg
+        - https://s2.loli.net/2024/12/03/62WR1d8vCrmJ4Fc.jpg
+        - https://s2.loli.net/2024/12/03/63YzPaxVEstRyWr.jpg
+        - https://s2.loli.net/2024/12/03/cDoyNW4Kfj2MxPk.jpg
+
+- class_name: 我的工作
+  path_name: /workPhoto
+  top_link: /album
+  type: 1
+  description: 迷茫的原因是书读得太少，想得太多
+  top_btn_text: 返回
+  top_background: https://s2.loli.net/2024/12/03/rbjLiC1gOKHVDfp.jpg
+  cover: https://s2.loli.net/2024/12/03/ExzJQVMSB9eYs6o.jpg
+  album_list:
+    - date: 2024-10-24
+      content: 帅
+      address: 2024南山区集创赛现场
+      image:
+      - https://s2.loli.net/2024/12/03/3LF6jTonSJBrARw.jpg
+
+- class_name: 未完待续
+  path_name: /album
+  top_link: /album
+  type: 1
+  description: 虽千万人，吾往矣
+  top_btn_text: 返回
+  top_background: https://s2.loli.net/2024/12/03/rbjLiC1gOKHVDfp.jpg
+  cover: https://s2.loli.net/2024/12/03/eTkIpo1CBP3wO5y.jpg
+  album_list:
+    - date: 2024-10-24
+      content: 帅
+      address: 2024南山区集创赛现场
+      image:
+      - https://s2.loli.net/2024/12/03/3LF6jTonSJBrARw.jpg
+
+
+# - class_name: 我的日常
+#   path_name: /dailyPhoto
+#   type: 1
+#   description: about my life
+#   top_link: /album
+#   top_btn_text: 返回
+#   top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+#   cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+#   album_list:
+#     - date: 2024-10-24
+#       content: 老妹的画
+#       image:
+#         - https://bu.dusays.com/2023/04/09/643293997b92b.jpeg
