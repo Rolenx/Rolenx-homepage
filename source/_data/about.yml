@@ -38,6 +38,7 @@
       - desc: EDU,光电信息科学与工程专业
         color: "#357ef5"
     img: https://bu.dusays.com/2023/04/21/644287166329b.png
+
   statistic:
     link: /archives
     text: 文章隧道
@@ -54,6 +55,7 @@
     selfInfoContent2: 光电信息科学与工程
     selfInfoTips3: 现在职业
     selfInfoContent3: 大三学生👨‍🎓
+
   personalities:
     author_name: 建筑师
     personality_type: INTJ-A
