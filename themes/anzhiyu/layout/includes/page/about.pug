@@ -172,7 +172,28 @@ if site.data.about
             i.anzhiyufont.anzhiyu-icon-dice-d20
 
       .author-content
+        .author-content-item.like-technology(style=`background: url(/img/about_img/titanfall2.jpg) top / cover no-repeat;`)
+          .card-content
+            .author-content-item-tips="第九艺术"
+            span.author-content-item-title="TitanFall2"
+            .content-bottom
+              .tips="协议三：保护铁驭"
+        .author-content-item.like-music(style=`background: url("/img/about_img/sea.jpg") top / cover no-repeat;`)
+          .card-content
+            .author-content-item-tips="我的图片集"
+            span.author-content-item-title="见证生活"
+            .content-bottom
+              .tips=`如生命般的谜团`
+            .banner-button-group
+              a.banner-button(onclick=`pjax.loadUrl("/album")`)
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right
+                |  
+                span.banner-button-text 瞅一眼
+
+
+      .author-content
         - let {game_tips, game_title, game_uid, game_bg} = item.game
+      
         .author-content-item.game-yuanshen(style=`background: url(${game_bg}) top / cover no-repeat;`)
           .card-content
             .author-content-item-tips=game_tips
@@ -181,6 +202,7 @@ if site.data.about
               .icon-group
                 .loading-bar(role='presentation', aria-hidden='true' style=`${game_title != "原神" ? "display: none": ""}`)
               .tips.game-yuanshen-uid=game_uid
+
         .author-content-item.comic-content
           .card-content
             - let {comic_tips, comic_title, comic_list} = item.comic
