@@ -171,13 +171,14 @@ if site.data.about
           .card-background-icon
             i.anzhiyufont.anzhiyu-icon-dice-d20
 
+      //- 新加的，在about页多一栏展示，但是得纯手调
       .author-content
-        .author-content-item.like-technology(style=`background: url(/img/about_img/titanfall2.jpg) top / cover no-repeat;`)
+        .author-content-item.like-technology#rotating-content(style=`background: url(/img/about_img/titanfall2.jpg) top / cover no-repeat;`)
           .card-content
             .author-content-item-tips="第九艺术"
-            span.author-content-item-title="TitanFall2"
+            span.author-content-item-title="协议三：保护铁驭"
             .content-bottom
-              .tips="协议三：保护铁驭"
+              .tips="TitanFall2"
         .author-content-item.like-music(style=`background: url("/img/about_img/sea.jpg") top / cover no-repeat;`)
           .card-content
             .author-content-item-tips="我的图片集"
@@ -450,3 +451,4 @@ if site.data.about
       } else {
         getScript("!{url_for(theme.asset.gsap_js)}").then(initAboutPage);
       }
+    script(src=url_for('/js/anzhiyu/rotating-content.js'))

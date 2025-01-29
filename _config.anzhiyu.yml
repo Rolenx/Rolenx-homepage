@@ -36,15 +36,21 @@ nav:
           icon: /img/favicon.ico
     - title: 有趣的网站
       item:
+        - name: Hpoi手办维基
+          link: https://www.hpoi.net
+          icon: http://www.google.com/s2/favicons?domain=www.hpoi.net
         - name: civitai
-          link: https://civitai.com/tag/cat
+          link: https://civitai.com
           icon: http://www.google.com/s2/favicons?domain=civitai.com
         - name: 蒸汽中国
           link: https://steamzg.com
-          icon: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://steamzg.com&size=16 # http://www.google.com/s2/favicons?domain=steamzg.com
+          icon: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://steamzg.com&size=64 # http://www.google.com/s2/favicons?domain=steamzg.com
         - name: 电棍发电
           link: https://otto-hzys.huazhiwan.xyz/
           icon: http://www.google.com/s2/favicons?domain=otto-hzys.huazhiwan.xyz
+
+
+          
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -317,7 +323,7 @@ related_post:
   date_type: created # or created or updated 文章日期显示创建日或者更新日
 
 # figcaption (图片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # post_pagination (分页)
 # value: 1 || 2 || 3 || 4 || false
@@ -899,7 +905,7 @@ aside:
 busuanzi:
   site_uv: false
   site_pv: false
-  page_pv: false
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -947,7 +953,7 @@ centerConsole:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
       # - Hexo
@@ -1058,7 +1064,7 @@ instantpage: true
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之间添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (图片懒加载)
@@ -1173,7 +1179,7 @@ comment_barrage_config:
 # https://github.com/metowolf/MetingJS
 nav_music:
   enable: true
-  console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
+  console_widescreen_music: true # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 7554353964
   server: netease
   volume: 0.7 # 默认音量
