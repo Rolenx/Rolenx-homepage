@@ -54,7 +54,10 @@ ori的音乐可以说是十分的耐听好听，它赋予了每个不同区域�
 # 游玩体验的最高峰
 ori最有感觉的一个关卡就是[银之树的逃亡](https://www.bilibili.com/video/BV1sh411679F/?spm_id_from=333.337.search-card.all.click&vd_source=ac29c8eb92d9a3d72726fdf253cea654)，无论是关卡的顺滑度设计还是场景的变化和配乐都是顶级的，有一种史诗感和唯美感。
 
-{% video https://www.bilibili.com/video/BV1sh411679F/?spm_id_from=333.337.search-card.all.click&vd_source=ac29c8eb92d9a3d72726fdf253cea654 %}
+<div align="center">
+  <iframe width="100%" height="100%" style="min-height: 400px;max-width: 1000px; max-height: 600px;" src="https://live.csdn.net/v/embed/462517" frameborder="0" allowfullscreen></iframe>
+</div>
+
 {% span center small green, Ginso Tree Escape %}
 # 上乘之作，可以一玩
 总而言之，奥日与黑暗森林十分推荐喜欢横版闯关游戏的忠实玩家和想要体验或入坑类似的横版闯关游戏的新玩家游玩。画面表现和关卡设计放到10年后的今天来看仍旧经久不衰，是十足的精品。

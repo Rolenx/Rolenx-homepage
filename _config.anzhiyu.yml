@@ -91,16 +91,16 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://bu.dusays.com/2021/01/15/752a5d910377a.png"
+  statusImg: "https://bu.dusays.com/2021/01/15/baed8ffdf806e.gif"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+    - 🤖️ 数码科技爱好者
+    - 🔍 分享与热心帮助
+    - 🏠 智能家居小能手
+    - 🔨 设计开发一条龙
+    - 🤝 专修交互与设计
+    - 🏃 脚踏实地行动派
+    - 🧱 团队小组发动机
+    - 💢 壮汉人狠话不多
 
 
 # search (搜索)
@@ -199,6 +199,7 @@ default_top_img:
     - /img/cover/omao26.jpg
     - /img/cover/omao27.jpg
     - /img/cover/omao28.jpg
+    - /img/cover/omao29.jpg
 
 
 cover:
@@ -240,6 +241,7 @@ cover:
     - /img/cover/omao26.jpg
     - /img/cover/omao27.jpg
     - /img/cover/omao28.jpg
+    - /img/cover/omao29.jpg
 
 
 # Replace Broken Images (替换无法显示的图片)
@@ -322,14 +324,16 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
+  coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: /img/wxzsm.jpg
       link:
-      text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
-      link:
-      text: 支付宝
+      text: wechat
+
+    #  - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    #   link:
+    #   text: alipay
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -412,7 +416,7 @@ valine:
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /img/comment_bg_0.png # valine background
+  bg: /img/comment_bg.png # valine background
   emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
@@ -887,9 +891,9 @@ aside:
     category: true
   card_author:
     enable: true
-    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
+    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:center;color:rgba(255, 255, 255, 0.8);">朋山万青衿，友道古所敦。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:center;color:rgba(255, 255, 255, 0.8);">祝寿比蟠桃，你若野犴鸣。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:center;color:rgba(255, 255, 255, 0.8);">永年未可冀，远脱人世患。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:center;color:rgba(255, 255, 255, 0.8);">开怀纵清酌，心共白云间。</div>
+# <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
     name_link: /
-
   card_announcement:
     enable: true
     content: 欢迎来到我的个人网站鸭~
@@ -899,7 +903,7 @@ aside:
     backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
   card_recent_post:
     enable: true
-    limit: 5 # if set 0 will show all
+    limit: 6 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
@@ -917,8 +921,8 @@ aside:
       # - 前端
   card_archives:
     enable: true
-    type: monthly # yearly or monthly
-    format: MMMM YYYY # eg: YYYY年MM月
+    type: yearly # yearly or monthly
+    format: YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
     sort_order: # Don't modify the setting unless you know how it works
@@ -1108,7 +1112,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: false
+  enable: true
   startup_image_enable: true
   manifest: /manifest.json
   theme_color: var(--anzhiyu-main)
@@ -1155,9 +1159,9 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: nice to meet you
-    title: My Blog
+    title: My Friend
     image: /img/about_img/sekero.jpg
-    link: https://blog.yesord.top/
+    link: https://guide.yesord.top/
 
 # 朋友圈配置
 friends_vue:
@@ -1311,6 +1315,7 @@ dynamicEffect:
   postTopWave: true # 文章顶部波浪效果
   postTopRollZoomInfo: false # 文章顶部滚动时缩放
   pageCommentsRollZoom: false # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
+
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)

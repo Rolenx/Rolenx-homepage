@@ -248,20 +248,53 @@
         - https://s2.loli.net/2024/12/03/63YzPaxVEstRyWr.jpg
         - https://s2.loli.net/2024/12/03/cDoyNW4Kfj2MxPk.jpg
 
-- class_name: 我的工作
-  path_name: /workPhoto
+# - class_name: 我的工作
+#   path_name: /workPhoto
+#   top_link: /album
+#   type: 1
+#   description: 迷茫的原因是书读得太少，想得太多
+#   top_btn_text: 返回
+#   top_background: https://s2.loli.net/2024/12/03/rbjLiC1gOKHVDfp.jpg
+#   cover: https://s2.loli.net/2024/12/03/ExzJQVMSB9eYs6o.jpg
+#   album_list:
+#     - date: 2024-10-24
+#       content: 帅
+#       address: 2024南山区集创赛现场
+#       image:
+#       - https://s2.loli.net/2024/12/03/3LF6jTonSJBrARw.jpg
+
+
+- class_name: 天下之行
+  path_name: /worldScenery
+  type: 2
+  description: 踏遍千山万水
+  cover: https://s2.loli.net/2025/02/12/CMb6nh1E2emdzrV.jpg
+  top_background: https://s2.loli.net/2025/02/12/7uE2ctIzGh8oTHA.jpg
+  rowHeight: 300
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
   top_link: /album
-  type: 1
-  description: 迷茫的原因是书读得太少，想得太多
   top_btn_text: 返回
-  top_background: https://s2.loli.net/2024/12/03/rbjLiC1gOKHVDfp.jpg
-  cover: https://s2.loli.net/2024/12/03/ExzJQVMSB9eYs6o.jpg
   album_list:
-    - date: 2024-10-24
-      content: 帅
-      address: 2024南山区集创赛现场
-      image:
-      - https://s2.loli.net/2024/12/03/3LF6jTonSJBrARw.jpg
+    - date: 2025/1/28 01:00:00
+      content: 孙中山故居
+      address: 广东中山
+      from: Rony
+      image: 
+      - https://s2.loli.net/2025/02/12/rmpckeSs2oGf9Og.jpg
+      
+    - date: 2025/1/29 01:00:00
+      content: 松山湖
+      address: 广东东莞
+      from: Rony
+      image: 
+      - https://s2.loli.net/2025/02/12/bmVqPwocUsfrH8j.jpg
+      - https://s2.loli.net/2025/02/12/mQ5cfTWKgailPSL.jpg
+      - https://s2.loli.net/2025/02/12/94kZQbzcDohyUvI.jpg
+      - https://s2.loli.net/2025/02/12/mcIHsDp8WoLgGXq.jpg
+      - https://s2.loli.net/2025/02/12/JMf4wuoTUY163Sn.jpg
 
 - class_name: 未完待续
   path_name: /album
