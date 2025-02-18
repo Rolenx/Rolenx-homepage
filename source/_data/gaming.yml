@@ -1,0 +1,42 @@
+- class_name: 游戏zone
+  description: 我的游戏世界
+  tip: 跟 许若伦 一起探索世界
+  top_background: https://s2.loli.net/2025/02/18/P1Sx86gk3FEqANB.jpg
+  good_things:
+    - title: 美术一绝
+      description: 独特的美术风格
+      gaming_list:
+        - name: ori and the blind forest
+          specification: Moon Studios
+          description: 游戏以尼博尔山森林为背景，玩家操纵树精灵奥里在林中探索，使枯萎的树林回复生机，沿途面对各种障碍与敌人并逐渐成长。
+          image: https://s2.loli.net/2025/02/18/zHSCciOgpD451PM.jpg
+          link: /2025/02/09/Ori-and-Blind-Forest-游玩简评/
+        # - name: iPhone 13 Pro
+        #   specification: 白色 / 256G
+        #   description: 第一代支持promotion的iPhone，A15性能优秀。
+        #   image: https://p.zhheo.com/TofzQM2219061686120261484.png!cover
+        #   link: https://www.apple.com/by/iphone-13-pro/
+        # - name: 米物多模键盘85
+        #   specification: 无线蓝牙
+        #   description: 一款可以同时连接多个设备的键盘，适配windows和mac，按键中间空隙合适，圆形按键比较好看。
+        #   image: https://p.zhheo.com/1OXX4d2179068168614817390.png!cover
+        #   link: https://item.jd.com/100012980718.html
+
+    - title: 我的最爱
+      description: 我不能没有它了
+      gaming_list:
+        - name: GTA:5
+          specification: Rockstar Games
+          description: 谁还在买GTA5
+          image: https://imgheybox.max-c.com/heybox/game/header/271590_dXCCk.jpg
+          link: https://www.xiaoheihe.cn/games/detail/271590
+        # - name: 魅族重塑斜挎包
+        #   specification: 标准版
+        #   description: 一款轻便小巧的斜挎包，虽然体积比较小，能放的东西少，但是非常好看。
+        #   image: https://p.zhheo.com/wCvvZ82359068686121235468.png!cover
+        #   link: https://detail.meizu.com/item/pandaerxkb.html
+        # - name: 素乐W12 磁吸充电宝
+        #   specification: 布朗熊
+        #   description: 尺寸非常的小，在吸13pro的时候没有任何多余出来的部分。支持lighting充电。
+        #   image: https://p.zhheo.com/76rbNh2049068686121144539.png!cover
+        #   link: https://item.jd.com/100045568421.html

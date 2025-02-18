@@ -1,0 +1,36 @@
+#gaming
+  if site.data.gaming
+    each i in site.data.gaming
+      .author-content.author-content-item.fcirclePage.single(style = `background: url(${i.top_background}) left 37% / cover no-repeat !important;`)
+        .card-content
+            .author-content-item-tips=i.class_name
+            span.author-content-item-title=i.description
+            .content-bottom
+                .tips=i.tip
+            .banner-button-group
+                a.banner-button(onclick='pjax.loadUrl("/about/")')
+                    i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                    span.banner-button-text 关于本人
+      each item in i.good_things
+        .goodgames-item
+          h2.goodgames-title= item.title
+          .goodgames-item-description= item.description
+          .gaming-item
+            .gaming-item-content
+              each iten, indey in item.gaming_list
+                .gaming-item-content-item
+                  .gaming-item-content-item-cover
+                    img.gaming-item-content-item-image(data-lazy-src=url_for(iten.image) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=iten.name)
+                  .gaming-item-content-item-info
+                    .gaming-item-content-item-name(onclick=`rm.rightmenuCopyText("${iten.name}");anzhiyu.snackbarShow("${_p('Snackbar.copy_gaming_name') + " 【" + iten.name + "】"}");` title=iten.name)= iten.name
+                    .gaming-item-content-item-specification= iten.specification
+                    .gaming-item-content-item-description= iten.description
+                    .gaming-item-content-item-toolbar
+                      if iten.link.includes('https://') || iten.link.includes('http://')
+                        a.gaming-item-content-item-link(href= iten.link, target='_blank') 详情
+                        .bber-reply(onclick="rm.rightMenuCommentText(" + `'${iten.name + " " + iten.specification + " " + iten.description}'` + ")")
+                          i.anzhiyufont.anzhiyu-icon-message
+                      else  
+                        a.gaming-item-content-item-link(href= iten.link, target='_blank') 查看文章
+                        .bber-reply(onclick="rm.rightMenuCommentText(" + `'${iten.name + " " + iten.specification + " " + iten.description}'` + ")")
+                          i.anzhiyufont.anzhiyu-icon-message

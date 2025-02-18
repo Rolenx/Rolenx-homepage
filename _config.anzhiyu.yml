@@ -159,7 +159,7 @@ favicon: /img/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: /img/avatar.png
+  img: /img/Flametail19.gif
   effect: true
 
 # Disable all banner image
@@ -874,7 +874,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: /img/avatar.png # 自定加载动画义头像
+  avatar: /img/Flametail19.gif # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1324,6 +1324,7 @@ inject:
   head:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/gaming.css" media="defer" onload="this.media='all'">
 
   bottom:
     # 自定义js

@@ -173,12 +173,17 @@ if site.data.about
 
       //- 新加的，在about页多一栏展示，但是得纯手调
       .author-content
-        .author-content-item.like-technology#rotating-content(style=`background: url(/img/about_img/titanfall2.jpg) top / cover no-repeat;`)
+        .author-content-item.like-games#rotating-content(style=`background: url(/img/about_img/titanfall2.jpg) top / cover no-repeat;`)
           .card-content
             .author-content-item-tips="第九艺术"
             span.author-content-item-title="协议三：保护铁驭"
             .content-bottom
-              .tips="TitanFall2"
+              .tips="TitanFall 2"
+            .banner-button-group
+              a.banner-button(onclick=`pjax.loadUrl("/gaming")`)
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right
+                |  
+                span.banner-button-text start
         .author-content-item.like-music(style=`background: url("/img/about_img/sea.jpg") top / cover no-repeat;`)
           .card-content
             .author-content-item-tips="我的图片集"

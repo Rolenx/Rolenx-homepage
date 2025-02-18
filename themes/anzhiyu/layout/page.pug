@@ -2,7 +2,7 @@ extends includes/layout.pug
 
 block content
   #page
-    if top_img === false && !page.top_single
+    if top_img === false && !page.top_single && page.type !== 'gaming' 
       h1.page-title= page.title
     case page.type
       when 'tags'
@@ -27,8 +27,11 @@ block content
         include includes/page/music.pug
       when 'equipment'
         include includes/page/equipment.pug
+      when 'gaming' 
+        include includes/page/gaming.pug
       default
-        include includes/page/default-page.pug
+        include includes/page/default-page.pug 
+        //- 加入自己的页面模板
 
     if page.comments !== false && theme.comments && theme.comments.use
       - var commentsJsLoad = true
