@@ -5,4 +5,5 @@ comments: true
 top_img: false
 type: gaming
 aside: false
+password: 123456
 ---
