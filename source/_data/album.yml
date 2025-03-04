@@ -296,6 +296,44 @@
       - https://s2.loli.net/2025/02/12/mcIHsDp8WoLgGXq.jpg
       - https://s2.loli.net/2025/02/12/JMf4wuoTUY163Sn.jpg
 
+    - date: 2025/2/24 01:00:00
+      content: 南岸区
+      address: 重庆
+      from: Rony
+      image: 
+      - https://s2.loli.net/2025/02/25/vCuHdEnAiFoz9yL.jpg
+      - https://s2.loli.net/2025/02/25/A3toRyQJBdHNfCu.jpg
+      - https://s2.loli.net/2025/02/25/mRdbQVtJiBl8GnH.jpg
+      - https://s2.loli.net/2025/02/25/NTUOQlB67tk8Cju.jpg
+      - https://s2.loli.net/2025/02/25/kTv7J9hmyrgKlBD.jpg
+      - https://s2.loli.net/2025/02/25/eh5fyMwGuR2splk.jpg
+      - https://s2.loli.net/2025/02/25/JW6USAksrYfCnj8.jpg
+    
+    - date: 2025/2/22 01:00:00
+      content: 渝中区
+      address: 重庆
+      from: Rony
+      image: 
+      - https://s2.loli.net/2025/02/25/zHBm5hA7iDF9CvG.jpg
+      - https://s2.loli.net/2025/02/25/56Z9QXWIaNAgtB8.jpg
+      - https://s2.loli.net/2025/02/25/rHDCvFpgqRc8tw7.jpg
+      - https://s2.loli.net/2025/02/25/rXh91LoMg6QKRYG.jpg
+      - https://s2.loli.net/2025/02/25/dxQ4jmp2Z56IP8t.jpg
+      - https://s2.loli.net/2025/02/25/4tvLjZWSmPCebaI.jpg
+      - https://s2.loli.net/2025/02/25/X9lmT7fz3naDdE2.jpg
+      - https://s2.loli.net/2025/02/25/XJhQPAigENzI1ZK.jpg
+      - https://s2.loli.net/2025/02/25/hsZSogi8Ujw54LT.jpg
+      - https://s2.loli.net/2025/02/25/ise2wAOvhG75uRU.jpg
+    
+    - date: 2025/2/21 01:00:00
+      content: 沙坪坝区
+      address: 重庆
+      from: Rony
+      image: 
+      - https://s2.loli.net/2025/02/25/84tRHp2CYQT76dM.jpg
+      - https://s2.loli.net/2025/02/25/yDc8QgmWLt3AS2E.jpg
+
+
 - class_name: 未完待续
   path_name: /album
   top_link: /album

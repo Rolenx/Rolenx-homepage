@@ -4,12 +4,9 @@ date: 2024-10-25 11:57:51
 aside: false
 top_img: false
 background: "#f8f9fe"
-comments: true
+comments: false
 type: "about"
 ---
 
 
-# about me
-
-My name is **Rolenx**, nice to meet you
 
