@@ -4,11 +4,6 @@ menu:
   #   分类: /categories/ || anzhiyu-icon-shapes
   #   标签: /tags/ || anzhiyu-icon-tags
 
-  # 友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
-  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-  #   留言板: /comments/ || anzhiyu-icon-envelope
-
   我的:
     音乐馆: /music/?id=12259934595&server=netease || anzhiyu-icon-music
     追番页: /bangumis/ || anzhiyu-icon-bilibili
@@ -22,6 +17,11 @@ menu:
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     
+  
+  友链:
+    关系网: /link/ || anzhiyu-icon-link
+  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+  #   留言板: /comments/ || anzhiyu-icon-envelope
 
 # nav相关配置
 nav:
@@ -31,6 +31,9 @@ nav:
   menu:
     - title: 我的网页
       item:
+        - name: 引导
+          link: https://guide.yesord.top/
+          icon: /img/favicon.ico
         - name: 博客
           link: https://blog.yesord.top/
           icon: /img/favicon.ico
@@ -901,7 +904,7 @@ aside:
     name_link: /
   card_announcement:
     enable: true
-    content: 欢迎来到我的个人网站鸭~
+    content: <div align=center>欢迎来到我的小站鸭~</div> <div align=center>--- 个人页站点 ---</div> <div align=center><a href="https://academic.yesord.top" style="color:rgba(255,0,255,0.8)">academic.yesord.top</a></div> <div align=center>--- 引导页站点 ---</div> <div align=center><a href="https://guide.yesord.top" style="color:rgba(255,0,255,0.8)">guide.yesord.top</a></div> <div align=center>--- 博客站点 ---</div> <div align=center><a href="https://blog.yesord.top" style="color:rgba(255,0,255,0.8)">blog.yesord.top</a></div>
   card_weixin:
     enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
