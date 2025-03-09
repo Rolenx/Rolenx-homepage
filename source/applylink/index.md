@@ -31,9 +31,8 @@ top_img: false
 
 **格式化信息**
 
-
-<!-- endtab -->
 ```yaml
+
 - name: 
   link: 
   avatar: 
@@ -41,7 +40,11 @@ top_img: false
   siteshot: 
   # 下面是选填项
   atom(options): 
+
 ```
+
+<!-- endtab -->
+
 <!-- tab -->
 
 **文本信息**

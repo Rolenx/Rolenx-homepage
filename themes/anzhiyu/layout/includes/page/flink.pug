@@ -1,6 +1,17 @@
 #article-container
+  .author-content.author-content-item.fcirclePage.single(style = `background: url(https://s2.loli.net/2025/03/09/BGRvtnJqYdT97Eg.jpg) left 37% / cover no-repeat !important;`)
+        .card-content
+            .author-content-item-tips='与博主们一同分享'
+            span.author-content-item-title='友情链接'
+            .content-bottom
+                .tips='相逢即是缘分'
+            .banner-button-group
+                a.banner-button(onclick='pjax.loadUrl("/applylink/")')
+                    i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                    span.banner-button-text 申请友链
   if theme.linkPageTop && theme.linkPageTop.enable
     #flink-banners
+      
       .banner-top-box
         .flink-banners-title
           .banners-title-small 友情链接

@@ -9,4 +9,3 @@ comments: false
 
 ---
 
-{% note no-icon %}如果你也想将与敝站进行连接，欢迎点击按钮： {% btn '../applylink',申请友链 %}{% endnote %}

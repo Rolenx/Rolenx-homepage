@@ -36,6 +36,22 @@
       avatar: https://img.ryanzm.cn/2024/11/09/672f4d983a839.png
       descr: 与其诅咒黑暗，不如点燃一支蜡烛。
       recommend: false
+    
+    - name: Kloudy Shape
+      link: https://shape.kloudy.cn/
+      avatar: https://api.kloudy.cn/img/icon.webp
+      descr: Stay Hungry, Stay Foolish
+      recommend: false
+      siteshot: https://s2.loli.net/2025/03/09/KlGeYIHO4RpDsyU.png
+
+    - name: XINGYE's Blog
+      link: https://blog.xing-ye.top/
+      avatar: https://blog.xing-ye.top/avatar.webp
+      descr: 不要放弃，坚持学习，坚守理想，等待时机！
+      siteshot: https://xingye.s3.bitiful.net/siteshot.webp
+
+
+
     # - name: Rolenx
     #   link: https://home.yesord.top/
     #   avatar: https://github.com/Rolenx/Rolenx.github.io/raw/main/img/avatar.jpg # 如果支持gif可以使用 https://home.yesord.top/img/avatar.gif 
