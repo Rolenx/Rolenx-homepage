@@ -18,18 +18,38 @@
       avatar: https://blog.liushen.fun/info/avatar.ico
       descr: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
       siteshot: https://blog.liushen.fun/info/siteshot.jpg
+    
+    - name: 孤鬥
+      link: https://d-d.design
+      avatar: https://d-d.design/wp/gdLogo.png
+      descr: 做自己，不隨波逐流，不妥協
+      siteshot: https://s2.loli.net/2025/03/11/1W3ETFBcUDrCHfL.png
+
+    - name: 梦爱吃鱼
+      link: https://blog.bsgun.cn/
+      avatar: https://oss-cdn.bsgun.cn/logo/avatar.256.png
+      descr: 但愿日子清静抬头遇见的满是柔情
 
 - class_name: 小伙伴
-  class_desc: 那些人，那些事
+  class_desc: 群星闪耀时
   flink_style: telescopic
   hundredSuffix: ""
   link_list:
+    
     # - name: 安知鱼
     #   link: https://blog.anheyu.com/
     #   avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
     #   siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
     #   descr: 生活明朗，万物可爱
     #   recommend: true
+
+    - name: Rolenx
+      link: https://home.yesord.top/
+      avatar: https://home.yesord.top/img/avatar.jpg # 如果支持gif可以使用 https://home.yesord.top/img/avatar.gif 
+      descr: 你相信光吗～～
+      siteshot: https://home.yesord.top/img/iShot_2025-03-09_17.20.55.png
+      # 下面是选填项
+      atom(options): https://home.yesord.top/atom.xml
 
     - name: 又见梅林
       link: https://www.ryanzm.cn/
@@ -50,7 +70,44 @@
       descr: 不要放弃，坚持学习，坚守理想，等待时机！
       siteshot: https://xingye.s3.bitiful.net/siteshot.webp
 
+    - name: Elykia
+      link: https://blog.elykia.cn/
+      avatar: https://bu.dusays.com/2024/10/25/671b2438203a6.gif
+      descr: 致以无暇之人
+      siteshot: https://bu.dusays.com/2024/10/25/671b50dc2dd2b.png
 
+    - name: 百里飞洋の博客  # 站点名称
+      link: https://blog.meta-code.top/  # 站点链接
+      avatar: https://avatars.githubusercontent.com/u/81922999?v=4  # 您的头像
+      descr: 星河滚烫，无问西东。  # 站点描述，十个字左右
+      mail: Barry-Flynn@qq.com  # 您的常用邮箱
+
+    - name: 猫箱内の六轩岛
+      link: https://batora.ushiromiya.com
+      avatar: https://secure.gravatar.com/avatar/1e4b72c9f00126cbd1c31d4254165d2e?s=400
+      descr: 夏空社 “猫箱内の巴托拉” 的个人博客
+      siteshot: https://s2.loli.net/2025/03/11/xTCElqDcS4IHNYG.png
+
+    - name: Davidの3号基地
+      link: https://www.david03.top
+      avatar: https://www.david03.top/favicon.ico
+      descr: 一入医门深似海，从此笃行无归途
+      siteshot: https://s2.loli.net/2025/03/11/xXcFeaUzvKAwSpl.png
+
+    - name: 呓语梦轩
+      link: https://blog.awaae001.top
+      avatar: https://image.m-c.top/?/images/2024/01/13/Pqeh0v6VaK/ico.jpg
+      descr: 用心享受生活
+      # siteshot: https://s2.loli.net/2025/03/11/rM8kzlTbIQ25xXd.png
+      # Rss: https://blog.awaae001.top/atom.xml
+    
+    - name: 周润发
+      link: https://blog.aizrf.com
+      avatar: https://blog.aizrf.com/img/logo.png
+      descr: 收录开源，好用的互联网项目
+      siteshot: https://blog.aizrf.com/img/web_img.png
+
+    
 
     # - name: Rolenx
     #   link: https://home.yesord.top/
@@ -59,7 +116,18 @@
     #   siteshot: https://github.com/Rolenx/Rolenx.github.io/raw/main/img/iShot_2025-03-09_17.20.55.png
     #   # 下面是选填项
     #   atom(options): https://github.com/Rolenx/Rolenx.github.io/raw/main/atom.xml
+
+- class_name: 博客组织
+  class_desc: 连接互联网的边缘
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: 博友圈
+      link: https://www.boyouquan.com/home
+      avatar: https://www.boyouquan.com/assets/images/sites/logo/logo-small.png
+      descr: 博客人的朋友圈，博客收录与文章 RSS 聚合网站。
     
+
 - class_name: 框架
   class_desc: 本站的基础
   flink_style: anzhiyu

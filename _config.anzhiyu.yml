@@ -1145,13 +1145,13 @@ home_top:
   subTitle: 幸见光临
   siteText: Welcome
   category:
-    - name: 音乐馆
-      path: /music/?id=12259934595&server=netease
+    - name: 导航
+      path: https://guide.yesord.top
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
     - name: 关于我
-      path: /about/
+      path: https://academic.yesord.top
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
@@ -1169,7 +1169,7 @@ home_top:
     tips: nice to meet you
     title: My Friend
     image: /img/about_img/sekero.jpg
-    link: https://guide.yesord.top/
+    link: /about/
 
 # 朋友圈配置
 friends_vue:
