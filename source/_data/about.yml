@@ -64,8 +64,8 @@
     name_url: https://www.16personalities.com/intj-personality
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 佛不渡人，
-    maxim_bottom: 唯人自渡。
+    maxim_top: 往者不谏，
+    maxim_bottom: 来者可追。
   buff:
     buff_tips: 特长
     buff_top: 胶圈萌新 又菜又爱玩
@@ -87,7 +87,7 @@
         cover: https://s2.loli.net/2024/11/06/RaVdmkqrsnJjE84.jpg
       - name: 紫罗兰永恒花园
         href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
+        cover: https://imgbed.yesord.top/file/home/1746202750881_rBwhMTtHTmotGHif6NJXP2IyAPI.jpg.webp
       - name: 吊带袜天使
         href: https://www.anfuns.cc/anime/719.html
         cover: https://s2.loli.net/2024/11/06/4JxTSAVeBv1r3mO.jpg
@@ -108,9 +108,9 @@
     music_bg: /img/about_img/zutomayo.jpg
     music_link: /music/?id=12259934595&server=netease
   reward_list:
-    # - name: 海阔蓝
-    #   amount: 8.8
-    #   datatime: 2023-03-28
+    - name: 叻居居
+      amount: 0.66
+      datatime: 2025-03-28
     # - name: LK66
     #   amount: 66.6
     #   datatime: 2023-03-24
