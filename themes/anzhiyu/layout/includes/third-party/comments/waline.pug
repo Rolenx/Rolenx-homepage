@@ -4,7 +4,7 @@
 script.
   (() => {
     let initFn = window.walineFn || null
-
+    console.log('Initializing Waline');
     const initWaline = (Fn) => {
       const waline = Fn(Object.assign({
         el: '#waline-wrap',
@@ -24,16 +24,28 @@ script.
     }
 
     const loadWaline = async () => {
-      if (initFn) initWaline(initFn)
-      else {
-        await getCSS('!{url_for(theme.asset.waline_css)}')
-        if (!{meta_css}) await getCSS('!{url_for(theme.asset.waline_meta_css)}')
-        const { init } = await import('!{url_for(theme.asset.waline_js)}')
-        initFn = init || Waline.init
-        initWaline(initFn)
-        window.walineFn = initFn
+      try {
+        if (initFn) {
+          console.log('Using existing Waline init function.');
+          initWaline(initFn);
+        } else {
+          console.log('Loading Waline resources...');
+          await getCSS('!{url_for(theme.asset.waline_css)}');
+          console.log('Waline CSS loaded.');
+          if (!{meta_css}) {
+            await getCSS('!{url_for(theme.asset.waline_meta_css)}');
+            console.log('Waline meta CSS loaded.');
+          }
+          const { init } = await import('!{url_for(theme.asset.waline_js)}');
+          initFn = init || Waline.init;
+          console.log('Waline JS loaded.');
+          initWaline(initFn);
+          window.walineFn = initFn;
+        }
+      } catch (error) {
+        console.error('Failed to load Waline resources:', error);
       }
-    }
+    };
 
     if ('!{use[0]}' === 'Waline' || !!{lazyload}) {
       if (!{lazyload}) anzhiyu.loadComment(document.getElementById('waline-wrap'),loadWaline)
@@ -41,4 +53,19 @@ script.
     } else {
       window.loadOtherComment = loadWaline
     }
+
+    // Add pjax:complete event listener to reload Waline
+    document.addEventListener('pjax:complete', () => {
+    const checkWalineWrap = () => {
+      const walineWrap = document.getElementById('waline-wrap');
+      if (walineWrap) {
+        console.log('Initializing Waline...');
+        loadWaline();
+      } else {
+        console.log('Retrying Waline initialization...');
+        setTimeout(checkWalineWrap, 100); // 重试机制
+      }
+    };
+    checkWalineWrap();
+  });
   })()
