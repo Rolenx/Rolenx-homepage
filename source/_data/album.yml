@@ -292,6 +292,7 @@
   top_link: /album
   top_btn_text: 返回
   album_list:
+    
     - date: 2025/1/28 01:00:00
       content: 孙中山故居
       address: 广东中山
@@ -347,6 +348,29 @@
       - https://s2.loli.net/2025/02/25/84tRHp2CYQT76dM.jpg
       - https://s2.loli.net/2025/02/25/yDc8QgmWLt3AS2E.jpg
 
+    - date: 2025/8/9 01:00:00
+      content: 鲤城区
+      address: 泉州
+      from: Rony
+      image: 
+      - https://imgbed.yesord.top/file/home/1755524944622_IMG_0561.png
+      - https://imgbed.yesord.top/file/home/1755524918714_IMG_0507.png
+      - https://imgbed.yesord.top/file/home/1755524915544_IMG_0557.png
+      - https://imgbed.yesord.top/file/home/1755524917453_IMG_0525.png
+      - https://imgbed.yesord.top/file/home/1755524916734_IMG_0535.png
+      - https://imgbed.yesord.top/file/home/1755524906943_IMG_0565.png
+      - https://imgbed.yesord.top/file/home/1755524903422_IMG_0521.png
+      - https://imgbed.yesord.top/file/home/1755524899683_IMG_0532.png
+      - https://imgbed.yesord.top/file/home/1755524900727_IMG_0575.png
+      - https://imgbed.yesord.top/file/home/1755524896120_IMG_0522.png
+      - https://imgbed.yesord.top/file/home/1755524895971_IMG_0586.png
+      - https://imgbed.yesord.top/file/home/1755524898918_IMG_0589.png
+      - https://imgbed.yesord.top/file/home/1755524892487_IMG_0570.png
+      - https://imgbed.yesord.top/file/home/1755524889996_IMG_0518.png
+      - https://imgbed.yesord.top/file/home/1755524889622_IMG_0579.png
+      - https://imgbed.yesord.top/file/home/1755524887425_IMG_0591.png
+      - https://imgbed.yesord.top/file/home/1755524891329_IMG_0538.png
+      - https://imgbed.yesord.top/file/home/1755524891254_IMG_0590.png
 
 - class_name: 未完待续
   path_name: /album
