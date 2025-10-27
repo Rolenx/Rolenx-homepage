@@ -54,7 +54,7 @@
     selfInfoTips2: 深圳大学
     selfInfoContent2: 光电信息科学与工程
     selfInfoTips3: 现在职业
-    selfInfoContent3: 大三学生👨‍🎓
+    selfInfoContent3: 大四学生👨‍🎓
 
   personalities:
     author_name: 建筑师
@@ -100,7 +100,7 @@
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://img.picui.cn/free/2024/11/07/672c789b928ba.jpg
+    like_bg: https://imgbed.yesord.top/file/home/1758894732674_iShot_2025-09-26_21.51.44.png
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
@@ -111,6 +111,10 @@
     - name: 叻居居
       amount: 0.66
       datatime: 2025-03-28
+    - name: 有志不在年糕
+      amount: 6.66
+      datatime: 2025-09-26
+
     # - name: LK66
     #   amount: 66.6
     #   datatime: 2023-03-24
