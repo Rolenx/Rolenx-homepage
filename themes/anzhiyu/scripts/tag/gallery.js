@@ -52,12 +52,14 @@ function gallery(args, content) {
   }" data-rowHeight="${rowHeight}" data-limit="${limit}">
     <span class="gallery-data">${dataStr}</span>
   </div><button class="gallery-load-more" style="${!lazyloadBtn ? "opacity:0" : ""}">
-  <span>${data[languages[0]].load_more}</span>
+  
   <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
   </button>`;
 
   return (html += `</div>`);
 }
+
+// <span>${data[languages[0]].load_more}</span> 55行处代码，与load_more有关
 
 function galleryGroup(args) {
   const name = args[0];

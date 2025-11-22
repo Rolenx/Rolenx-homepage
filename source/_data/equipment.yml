@@ -39,11 +39,12 @@
           image: https://s2.loli.net/2025/02/20/IXcFCHZ5ViaxyKL.webp
           link: https://consumer.huawei.com/hk/tablets/matepad-11/
         
-        # - name: AirPods（第三代）
-        #   specification: 标准版
-        #   description: 第三代对比第二代提升很大，和我一样不喜欢入耳式耳机的可以入，空间音频等功能确实新颖，第一次使用有被惊艳到。
-        #   image: https://bu.dusays.com/2023/07/05/64a4c3ded6319.webp
-        #   link: https://www.apple.com.cn/airpods-3rd-generation/
+        - name: AirPods 4
+          specification: 标准版
+          description: 999的耳机，像QCY这些还是没法碰瓷。
+          image: https://bu.dusays.com/2023/07/05/64a4c3ded6319.webp
+          link: https://www.apple.com.cn/airpods-3rd-generation/
+
     - title: 出行
       description: 用来出行的实物及设备
       equipment_list:

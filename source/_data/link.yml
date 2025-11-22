@@ -98,14 +98,14 @@
       link: https://blog.awaae001.top
       avatar: https://image.m-c.top/?/images/2024/01/13/Pqeh0v6VaK/ico.jpg
       descr: 用心享受生活
-      # siteshot: https://s2.loli.net/2025/03/11/rM8kzlTbIQ25xXd.png
-      # Rss: https://blog.awaae001.top/atom.xml
+      siteshot: https://s2.loli.net/2025/03/11/rM8kzlTbIQ25xXd.png
+      Rss: https://blog.awaae001.top/atom.xml
     
     - name: 周润发
-      link: https://blog.aizrf.com
-      avatar: https://blog.aizrf.com/img/logo.png
+      link: https://blog.zrf.me
+      avatar: https://blog.zrf.me/img/logo.webp
       descr: 收录开源，好用的互联网项目
-      siteshot: https://blog.aizrf.com/img/web_img.png
+      siteshot: https://blog.zrf.me/img/web_img.webp
 
     - name: Sumo
       link: https://letianpai.osfs.top/
